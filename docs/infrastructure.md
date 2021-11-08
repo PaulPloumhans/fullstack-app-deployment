@@ -27,7 +27,7 @@ The node.js server on EB runs on port 8080. However, it has to be access from ou
 ## S3 bucket for API media storing
 
 The `udagram-api-media` bucket is used to store media by the API. For access management purposes, it has a dedicated admin user called `udagram-api-media` with associated access keys. Moreover, the bucket has the following CORS policy:
-`
+```
 [
     {
         "AllowedHeaders": [
@@ -46,10 +46,10 @@ The `udagram-api-media` bucket is used to store media by the API. For access man
         "ExposeHeaders": []
     }
 ]
-`
+```
 
 Its bucket policy is
-`
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -62,12 +62,12 @@ Its bucket policy is
         }
     ]
 }
-`
+```
 
 #### S3 bucket for website static hosting
 
 The S3 endpoint for website static hosting http://udagram-ppl.s3-website.eu-central-1.amazonaws.com/. Its bucket policy is:
-`
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -83,4 +83,4 @@ The S3 endpoint for website static hosting http://udagram-ppl.s3-website.eu-cent
         }
     ]
 }
-`
+```
