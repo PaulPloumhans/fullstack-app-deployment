@@ -25,7 +25,7 @@ Click here for detailed info on the status of the last build: [![PaulPloumhans](
 
 ## Other documentation
 
-Detailed documentation is available in floder (docs) for:
+Detailed documentation is available in folder [docs](docs) for:
     architecture diagrams (docs/architecture.md)
     dependencies (docs/dependencies.md)
     infrastructure (docs/infrastructure.md)
