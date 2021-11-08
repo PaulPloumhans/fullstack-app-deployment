@@ -15,24 +15,6 @@ jobs:
       - aws-cli/setup
       # install dependencies in both apps
       - run:
-          name: Back-End Install
-          command: |
-            cd udagram
-            npm run backend:install
-            cd ..
-      - run:
-          name: Back-End Build
-          command: |
-            cd udagram
-            npm run backend:build
-            cd ..
-      - run:
-          name: Back-End Deploy
-          command: |
-            cd udagram
-            npm run backend:deploy
-            cd ..
-      - run:
           name: Front-End Install
           command: |
             cd udagram
@@ -49,4 +31,22 @@ jobs:
           command: |
             cd udagram
             npm run frontend:deploy
+            cd ..
+      - run:
+          name: Back-End Install
+          command: |
+            cd udagram
+            npm run backend:install
+            cd ..
+      - run:
+          name: Back-End Build
+          command: |
+            cd udagram
+            npm run backend:build
+            cd ..
+      - run:
+          name: Back-End Deploy
+          command: |
+            cd udagram
+            npm run backend:deploy
             cd ..
