@@ -29,6 +29,9 @@ jobs:
       - run:
           name: Use Node version 14 
           command: nvm use 14.17.0
+      - run:
+          name: Check current version of node
+          command: node -v
       # install dependencies in both apps
       - run:
           name: Front-End Install
