@@ -6,7 +6,7 @@ This is the fourth project of the Udacity Full Stack Javascript Developer Nanode
 
 The application has
 * A frontend, that allows users, from their web browser, to add a series of pictures with an associated caption. Users need to sign up and login
-* A backend, that interacts with the frontend through an API, and that stores and retrieves the captions in a Postgres database, and stores and retries the images on disk (technically in an Amazon Web Services - AWS - S3 bucket)
+* A backend, that interacts with the frontend through an API, and that stores and retrieves the captions in a Postgres database, and stores and retrieves the images on disk (technically in an Amazon Web Services - AWS - S3 bucket)
 * The said Postgres database, which is hosted in AWS, using Amazon Relational Database Service (RDS).
 
 ## Link to the hosted working Front-End Application
