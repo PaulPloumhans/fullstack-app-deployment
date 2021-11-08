@@ -21,13 +21,12 @@ jobs:
           command: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
       # install node version that works fine locally; version 17.0.1 - current default on CircleCI - creates issues
       - run:
-          name: Install Node version 14.17.0 using NVM
-          command: nvm install 14.17.0
+          name: Install Node version 14.17.0 using NVM and set as default
+          command: |
+            nvm install 14.17.0
+            nvm alias default 14.17.0
       - run:
-          name: Use Node version 14 
-          command: nvm use 14.17.0
-      - run:
-          name: Check new version of node
+          name: Verify new version of node
           command: node -v
       - checkout
       - aws-cli/setup
