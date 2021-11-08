@@ -21,7 +21,7 @@ The project source is available on https://github.com/PaulPloumhans/fullstack-ap
 
 Any change on the github repo https://github.com/PaulPloumhans/fullstack-app-deployment triggers an automatic build and deployment on CircleCI.
 
-[![PaulPloumhans](https://circleci.com/gh/PaulPloumhans/fullstack-app-deployment.svg?style=svg)](https://circleci.com/gh/PaulPloumhans/fullstack-app-deployment)
+Click here for detailed info on the status of the last build: [![PaulPloumhans](https://circleci.com/gh/PaulPloumhans/fullstack-app-deployment.svg?style=svg)](https://circleci.com/gh/PaulPloumhans/fullstack-app-deployment)
 
 ## Other documentation
 
