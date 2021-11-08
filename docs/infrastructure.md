@@ -1,15 +1,11 @@
-# Udacity Full Stack javascript developer - Hosting a Full-Stack Application
+# Udacity Full Stack javascript developer - Hosting a Full-Stack Application - Infrastructure description
 
-# Infrastructure description
+## AWS Resources used
 
 The infrastructure uses different AWS Services:
     Amazon Relational Database Services (RDS) for a Postgres database
     Elastic Beanstalk (EB) to host the backend API, and S3 to store media (i.e. images)
     S3 for static hosting of the frontend files
-
-# AWS Resources used
-
-## Region
 
 All AWS resources used are hosted in the the EU (Frankfurt) region.
 
@@ -64,7 +60,7 @@ Its bucket policy is
 }
 ```
 
-#### S3 bucket for website static hosting
+## S3 bucket for website static hosting
 
 The S3 endpoint for website static hosting http://udagram-ppl.s3-website.eu-central-1.amazonaws.com/. Its bucket policy is:
 ```

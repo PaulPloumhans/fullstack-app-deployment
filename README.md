@@ -33,12 +33,14 @@ Detailed documentation is available in folder [docs](docs) for:
 
 ### Architecture diagram
 
-
-
-### App dependencies
-
-All the app dependencies are documented in `package.json` files. For udagram-api, the package `pg` created issues (connection to RDS hanging). This was solved by upgrading it to the latest version (8.7.1 as of this writing)
-
 ### Pipeline process (with CircleCI)
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+## Built With
+
+- [Angular](https://angular.io/) - Single Page Application Framework
+- [Node](https://nodejs.org) - Javascript Runtime
+- [Express](https://expressjs.com/) - Javascript API Framework
+
+## License
+
+[License](LICENSE.txt)
