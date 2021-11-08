@@ -27,7 +27,7 @@ jobs:
           name: Use Node version 14 
           command: nvm use 14.17.0
       - run:
-          name: Check current version of node
+          name: Check new version of node
           command: node -v
       - checkout
       - aws-cli/setup
