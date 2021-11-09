@@ -31,10 +31,6 @@ Detailed documentation is available in folder [docs](docs) for:
     infrastructure (docs/infrastructure.md)
     the pipeline process (docs/pipeline.md)
 
-### Architecture diagram
-
-### Pipeline process (with CircleCI)
-
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
