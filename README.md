@@ -26,10 +26,10 @@ Click here for detailed info on the status of the last build: [![PaulPloumhans](
 ## Other documentation
 
 Detailed documentation is available in folder [docs](docs) for:
-    architecture diagrams (docs/architecture.md)
-    dependencies (docs/dependencies.md)
-    infrastructure (docs/infrastructure.md)
-    the pipeline process (docs/pipeline.md)
+* [architecture diagrams](docs/architecture.md)
+* [dependencies](docs/dependencies.md)
+* [infrastructure](docs/infrastructure.md)
+* [the pipeline process](docs/pipeline.md)
 
 ## Built With
 
