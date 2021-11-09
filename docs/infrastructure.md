@@ -3,9 +3,9 @@
 ## AWS Resources used
 
 The infrastructure uses different AWS Services:
-    Amazon Relational Database Services (RDS) for a Postgres database
-    Elastic Beanstalk (EB) to host the backend API, and S3 to store media (i.e. images)
-    S3 for static hosting of the frontend files
+  * Amazon Relational Database Services (RDS) for a Postgres database
+  * Elastic Beanstalk (EB) to host the backend API, and S3 to store media (i.e. images)
+  * S3 for static hosting of the frontend files
 
 All AWS resources used are hosted in the the EU (Frankfurt) region.
 
