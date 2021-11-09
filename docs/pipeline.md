@@ -11,4 +11,7 @@ The following environment variables have been configure in CircleCI in order to 
 * AWS_ACCESS_KEY_ID
 * AWS_DEFAULT_REGION
 * AWS_SECRET_ACCESS_KEY
-As shown in ![alt text](https://github.com/PaulPloumhans/fullstack-app-deployment/blob/master/docs/circleci_secrets.png "CircleCI secrets")
+
+As shown in:
+
+![alt text](https://github.com/PaulPloumhans/fullstack-app-deployment/blob/master/docs/circleci_secrets.png "CircleCI secrets")
