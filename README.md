@@ -2,9 +2,9 @@
 
 ## Project description
 
-This is the fourth project of the Udacity Full Stack Javascript Developer Nanodegree program: Hosting a Full-Stack Application. It uses the code provided by Udacity in https://github.com/udacity/nd0067-c4-deployment-process-project-starter.
+This is the fourth project of the Udacity Full Stack Javascript Developer Nanodegree program: Hosting a Full-Stack Application. It uses the code provided by Udacity in https://github.com/udacity/nd0067-c4-deployment-process-project-starter. The application is built and then deployed using Amazon Web Services.
 
-The application has
+The application has:
 * A frontend, that allows users, from their web browser, to add a series of pictures with an associated caption. Users need to sign up and login
 * A backend, that interacts with the frontend through an API, and that stores and retrieves the captions in a Postgres database, and stores and retrieves the images on disk (technically in an Amazon Web Services - AWS - S3 bucket)
 * The said Postgres database, which is hosted in AWS, using Amazon Relational Database Service (RDS).
