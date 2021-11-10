@@ -7,6 +7,7 @@ orbs:
   # different jobs are calles later in the workflows sections
 
 # One job called build is defined
+
 jobs:
   build:   
     docker:
@@ -72,7 +73,9 @@ jobs:
             cd udagram
             npm run backend:deploy
             cd ..
+
 # workflow that calls the only job and only triggers when changes are detected on the master branch
+
 workflows:
   all:
     jobs:
