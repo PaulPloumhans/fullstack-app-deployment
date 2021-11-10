@@ -5,6 +5,8 @@ orbs:
   aws-cli: circleci/aws-cli@2.0.3
   eb: circleci/aws-elastic-beanstalk@2.0.1
   # different jobs are calles later in the workflows sections
+
+# One job called build is defined
 jobs:
   build:   
     docker:
@@ -70,7 +72,7 @@ jobs:
             cd udagram
             npm run backend:deploy
             cd ..
-
+# workflow that calls the only job and only triggers when changes are detected on the master branch
 workflows:
   all:
     jobs:
