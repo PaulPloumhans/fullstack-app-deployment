@@ -72,8 +72,9 @@ jobs:
             cd ..
 
 workflows:
-  jobs:
-    - build:
-      filters:
-        branches:
-          only: master
+  all:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
