@@ -70,7 +70,7 @@ jobs:
             cd udagram
             npm run backend:deploy
             cd ..
-
+# workflow only triggers if changes were made on the master branch
 workflows:
   all:
     jobs:
