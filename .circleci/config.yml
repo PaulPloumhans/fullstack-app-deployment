@@ -11,9 +11,6 @@ jobs:
       # the base image can run most needed actions with orbs
       - image: "cimg/base:stable"
     steps:
-      filters:
-        branches:
-          only: master
       - node/install
       # check current version of node
       - run:
@@ -73,3 +70,10 @@ jobs:
             cd udagram
             npm run backend:deploy
             cd ..
+
+workflows:
+  jobs:
+    - build
+      filters:
+        branches:
+          only: master
